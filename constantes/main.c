@@ -10,8 +10,8 @@ int main()
     float numberOfSlices = 3;
     costoPizzas = PIZACOST * numberOfSlices;
 
-    printf("Total bill: %f \n", costoPizzas);
-    printf("%c", NEWLINE);
+    printf("Total bill: %c %f", NEWLINE, costoPizzas);
+
 
     return 0;
 }
